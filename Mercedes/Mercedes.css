@@ -10,7 +10,6 @@ body{
     justify-content: center;
 }
 
-
 .topo {
     background-color: rgb(172, 0, 0);
     color: aliceblue;
@@ -21,18 +20,16 @@ body{
     align-items: center;
     padding-left:20px;
     font-family: "Outfit", sans-serif;
-
 }
 
 .nav{
     background-color: rgb(87, 87, 87);
     color: aliceblue;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-left: 20px;
+    font-family: "Outfit", sans-serif;
+    padding-left: 23px;
     height: 60px;
-    width:100%;
-    display: flex;
     align-items: center;
+    display: flex;
     gap: 20px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -41,11 +38,7 @@ body{
     border: none;
     cursor: pointer;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
-    border-radius: 5px;
-    
-    
-    
-
+    border-radius: 5px;    
 }
 
 .nav a{
@@ -56,7 +49,6 @@ body{
 .nav a:hover{
     color: #c40000;
 }
-
 
 
 .titulo {
@@ -90,29 +82,16 @@ body{
     height: 50%;
     max-width: 98%;
     border-radius: 5px;
-    
-
 }
 
 .sobre{
     display: flex;
     justify-content: center;
-
     font-size:large;
     flex-direction: column;
-    
-
 }
 
-.sobre h2{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-   
-
-}
-
-.design{
+.desempenho{
     background-color: #242424;
     padding: 10px;
     border-radius: 5px;
@@ -121,6 +100,7 @@ body{
     cursor: pointer;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .inovacoes{
@@ -134,7 +114,7 @@ body{
     border-radius: 5px;
 }
 
-.desempenho{
+.impacto{
     background-color: #242424;
     padding: 10px;
     border-radius: 5px;
