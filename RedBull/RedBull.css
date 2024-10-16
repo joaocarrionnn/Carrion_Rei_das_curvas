@@ -27,11 +27,11 @@ body{
 .nav{
     background-color: rgb(87, 87, 87);
     color: aliceblue;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Outfit", sans-serif;
     padding-left: 23px;
     height: 60px;
-    display: flex;
     align-items: center;
+    display: flex;
     gap: 20px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -40,11 +40,7 @@ body{
     border: none;
     cursor: pointer;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
-    border-radius: 5px;
-    
-    
-    
-
+    border-radius: 5px;    
 }
 
 .nav a{
