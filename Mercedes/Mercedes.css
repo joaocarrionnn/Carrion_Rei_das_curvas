@@ -80,7 +80,7 @@ body{
     align-items: center;
     display: flex;
     justify-content: center;
-    height: 50%;
+    height:auto;
     max-width: 98%;
     border-radius: 5px;
 }
